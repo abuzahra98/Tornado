@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Tornado.iml" filepath="$PROJECT_DIR$/Tornado.iml" group="Tornado" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Tornado/app" />
+      <module fileurl="file://$PROJECT_DIR$/My Application.iml" filepath="$PROJECT_DIR$/My Application.iml" group="My Application" />
+      <module fileurl="file://$PROJECT_DIR$/Tornado.iml" filepath="$PROJECT_DIR$/Tornado.iml" group="TORNADO" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="TORNADO/app" />
     </modules>
   </component>
 </project>
