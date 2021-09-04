@@ -6,7 +6,7 @@ import android.arch.persistence.room.PrimaryKey;
 @Entity
 
 public class Dish {
-
+    // Dish  model class
         @PrimaryKey(autoGenerate = true)
         public int idDish;
 

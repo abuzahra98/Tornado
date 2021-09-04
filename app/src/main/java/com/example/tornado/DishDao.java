@@ -6,6 +6,8 @@ import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 
 import java.util.List;
+
+// DishDao and the methods the app uses to interact with database
 @Dao
 public interface DishDao {
 

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button adddish = findViewById(R.id.adddish);
 
-        // add listeners
+        // on click listener on the add dish button to direct to AddDish activity
         adddish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        // on click listener on the menu button to direct to menu activity
         Button menu = findViewById(R.id.menu);
         menu.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -19,10 +19,12 @@ public class Menu extends AppCompatActivity {
 
         // list of dishes from db
         appDatabase = Room.databaseBuilder(getApplicationContext(),AppDatabase.class,"Dish").allowMainThreadQueries().build();
+        // get all data from database using Dao methode and save it in the list
+
         List<Dish> dishList = appDatabase.dishDao().getAll();
 
 
-        // get recycler view
+        // get the RecyclerView by id and set the layout
         RecyclerView allDishs = findViewById(R.id.ss);
 
 
