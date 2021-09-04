@@ -13,21 +13,26 @@ import java.util.List;
 
 
 public class DishAdapter extends  RecyclerView.Adapter<DishAdapter.dishHolder> {
-//get the data from this list to bind in the fragment
+//set the data from this list to bind in the fragment
     List<Dish> allDish = new ArrayList<>();
 
-//    constructor
+        //    constructor
     public DishAdapter (List<Dish> allDish){
         this.allDish = allDish;
     }
 
     public  static class dishHolder extends RecyclerView.ViewHolder{
-
+        //        Dish object
         public Dish dish;
+
+        //        View object
+
         View itemView;
         public dishHolder(@NonNull View itemView) {
             super(itemView);
             this.itemView = itemView;
+
+        //   listener to open  details page for all single dish
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -45,7 +50,7 @@ public class DishAdapter extends  RecyclerView.Adapter<DishAdapter.dishHolder> {
     @NonNull
     @Override
     public dishHolder onCreateViewHolder(@NonNull ViewGroup parent, int i) {
-//create view
+         //create view
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_dish, parent, false);
         dishHolder dishhold = new dishHolder(view);
         return dishhold;
