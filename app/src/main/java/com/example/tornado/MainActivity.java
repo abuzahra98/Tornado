@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button adddish = findViewById(R.id.adddish);
+
+        // add listeners
         adddish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -18,5 +18,18 @@ public class ditial extends AppCompatActivity {
         TextView dishing = findViewById(R.id.ing);
         dishing.setText(dishs);
 
+        Intent intent = getIntent();
+        String price = intent.getExtras().getString("price");
+        TextView prices = findViewById(R.id.price);
+        prices.setText(price);
+
+
+        Intent intent1 = getIntent();
+        String ditial = intent1.getExtras().getString("name");
+        TextView ditials = findViewById(R.id.ditial);
+        ditials.setText(ditial);
+
+
+
     }
 }
